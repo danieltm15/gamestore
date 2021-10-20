@@ -1,22 +1,4 @@
 <?php
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-
-$con = mysqli_connect($dbhost, $dbuser, $dbpass);
-if (!$con)
-  {
-  die('Could not connect: ' . mysql_error());
-  }
-$db_selected = mysqli_select_db("test_db", $con);
-if (!$db_selected)
-  {
-  die ("Can\'t use test_db : " . mysql_error());
-  }
-mysql_close($con);
-
-
-
 include('vistas/headerFile.php'); ?>
 <?php
 include "librerias/UserSesion.php";
