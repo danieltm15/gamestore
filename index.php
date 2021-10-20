@@ -1,6 +1,7 @@
 <?php
+include 'librerias/eliminar.php';
 include('vistas/headerFile.php');
-include 'librerias/eliminar.php'; ?>
+ ?>
 <?php
 include "librerias/UserSesion.php";
 include "librerias/Usuarios.php";
