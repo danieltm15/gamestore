@@ -1,7 +1,7 @@
 <?php
 	include 'librerias/conexion.php';
 	
-$sql = "DROP TABLE juego";
+$sql = "DROP TABLE imgjuego";
 
 if ($conn->query($sql) === TRUE) {
   echo "<script> alert('Database elimino successfully');</script>";
