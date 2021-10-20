@@ -1,14 +1,12 @@
 <?php
 	include 'librerias/conexion.php';
 	
-$sql = "create table Juego(
-	idJuego int auto_increment primary key,
-    nombre varchar(30) not null,
-    precio float,
-    descriShort varchar(600),
-    descriLong varchar(2500),
-    categoria varchar(30) not null,
-    plataforma varchar(30) not null
+$sql = "create table ImgJuego(
+	idImagen int auto_increment primary key,
+    url varchar(400)  not null,
+    id_Juego int,
+    
+    foreign key (id_Juego) references Juego(idJuego)
 )";
 
 if ($conn->query($sql) === TRUE) {
