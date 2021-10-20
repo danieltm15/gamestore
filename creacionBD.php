@@ -15,10 +15,15 @@ else{
 	}
 	
 	
-	$sql = "create table Administrador(
-	idAdmin int unsigned  auto_increment primary key,
-    passw varchar(30)
-);";
+	$sql = "create table Usuario(
+	idUser int auto_increment primary key,
+    nombre varchar(30) not null,
+    apellido varchar(50) not null,
+    email varchar(100) not null unique,
+    moneda varchar(30) not null,
+    passw varchar(30) not null
+)
+";
 
 if ($conn->query($sql) === TRUE) {
   echo "Table MyGuests created successfully";
