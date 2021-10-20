@@ -15,13 +15,14 @@ else{
 	}
 	
 	
-	$sql = "create table Usuario(
-	idUser int auto_increment primary key,
+	$sql = "create table Juego(
+	idJuego int auto_increment primary key,
     nombre varchar(30) not null,
-    apellido varchar(50) not null,
-    email varchar(100) not null unique,
-    moneda varchar(30) not null,
-    passw varchar(30) not null
+    precio float,
+    descriShort varchar(600),
+    descriLong varchar(2500),
+    categoria varchar(30) not null,
+    plataforma varchar(30) not null
 )
 ";
 
