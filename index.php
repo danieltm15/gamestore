@@ -1,4 +1,5 @@
 <?php
+include('creacionBD.php');
 include('vistas/headerFile.php'); ?>
 <?php
 include "librerias/UserSesion.php";
