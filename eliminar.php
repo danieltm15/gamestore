@@ -4,9 +4,9 @@
 $sql = "DROP TABLE juego";
 
 if ($conn->query($sql) === TRUE) {
-  echo "Database elimino successfully";
+  echo "<script> alert('Database elimino successfully');</script>";
 } else {
-  echo "Error elimi database: " . $conn->error;
+  echo "<script> alert('DError elimi database');</script>";
 }
 	echo "salio";
 $conn->close();
