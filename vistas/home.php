@@ -35,7 +35,7 @@
           </nav>
 
         </div>
-
+		</br>
         <div class="col" >
           <h2>Titulos Disponibles</h2>
 		  
