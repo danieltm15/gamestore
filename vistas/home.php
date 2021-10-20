@@ -8,11 +8,11 @@
 		include('vistas/encabezado.php');
 	?>
 
-      <div class="row align-items-center">
+      <div class="row">
 
-        <div class="col">
+        <div class="col-2 d-flex align-items-stretch">
 
-          <nav class="navbar navbar-light flex-column align-items-stretch p-3" style="background-color: #476072;">
+          <nav class="navbar-light flex-column align-items-stretch p-4" style="background-color: #476072;">
             <p class="navbar-brand" style='margin:0px; color: #EEEEEE;'>Categorias</p>
             <nav class="nav nav-pills flex-column">
               <a class="nav-link navTitulo2" href="">Tipos de juegos</a>
@@ -29,7 +29,6 @@
                 <a class="nav-link ms-3 my-1" href="index.php?categ=0&plataf=Xbox">Xbox</a>
                 <a class="nav-link ms-3 my-1" href="index.php?categ=0&plataf=Atari 2600">Atari 2600</a>
                 <a class="nav-link ms-3 my-1" href="index.php?categ=0&plataf=Nintendo 64">Nintendo 64</a>
-                <a class="nav-link ms-3 my-1" href="index.php?categ=0&plataf=Mega Drive">Mega Drive</a>
                 <a class="nav-link ms-3 my-1" href="index.php?categ=0&plataf=Super Nintendo">Super Nintendo</a>
               </nav>
             </nav>
@@ -37,7 +36,7 @@
 
         </div>
 
-        <div class="col-9" >
+        <div class="col" >
           <h2>Titulos Disponibles</h2>
 		  
 		  

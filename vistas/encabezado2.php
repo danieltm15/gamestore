@@ -11,7 +11,7 @@
   if (ValidarSesion()){
     $UserInit=$_SESSION["User"];
     echo '
-        <div><p style="margin:2px">Hola, '.$UserInit.'</p></div>
+        <div><p style="margin:2px; color:white">Hola, '.$UserInit.'</p></div>
       <div><form  method="POST" action="vistas/cerrarSesion.php"><button class="btn btn-outline-light" style="margin:2px">Cerrar Sesion</button></form></div>';
   } else {
     echo '<div><a href="index.php?inicioSesion" class="btn btn-outline-light" style="margin:2px">Inicio Sesion</a></div>
