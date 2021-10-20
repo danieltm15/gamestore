@@ -8,7 +8,7 @@ if ($conn->query($sql) === TRUE) {
 } else {
   echo "Error elimi database: " . $conn->error;
 }
-
+	echo "salio";
 $conn->close();
 
 
