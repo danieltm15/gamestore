@@ -1,5 +1,5 @@
 <?php
-include ('librerias/eliminar.php');
+include ('eliminar.php');
 include('vistas/headerFile.php');
  ?>
 <?php
