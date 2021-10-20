@@ -35,8 +35,9 @@
           </nav>
 
         </div>
-		</br>
+		
         <div class="col" >
+		</br>
           <h2>Titulos Disponibles</h2>
 		  
 		  
